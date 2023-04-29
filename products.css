@@ -1,0 +1,26 @@
+/* Style for the products table */
+#product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  #product-table th, #product-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #product-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  #product-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #product-table tr:hover {
+    background-color: #ddd;
+  }
+  

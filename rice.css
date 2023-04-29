@@ -1,0 +1,54 @@
+/* Styling the container */
+.rgp-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Styling the item */
+  .rgp-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  /* Styling the item image */
+  .rgp-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Styling the item title */
+  .rgp-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  /* Styling the item price */
+  .rgp-item p {
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  /* Styling the item button */
+  .rgp-item button {
+    display: block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styling the item button on hover */
+  .rgp-item button:hover {
+    background-color: #3e8e41;
+  }
+  
